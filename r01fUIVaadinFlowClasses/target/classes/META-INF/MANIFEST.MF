@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: jnogales
+Build-Jdk: 22.0.1
+Created-By: Maven Integration for Eclipse
+version: R01F-VERSION-JAKARTA
+

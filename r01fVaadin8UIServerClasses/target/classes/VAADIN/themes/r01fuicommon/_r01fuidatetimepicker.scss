@@ -1,0 +1,11 @@
+@mixin r01fuidatetimepicker {
+	////////// TimePicker
+	.datetimepicker-time-only .v-inline-datefield-calendarpanel-header,
+	.datetimepicker-time-only .v-inline-datefield-calendarpanel-body {
+	    display: none;
+	}
+	.datetimepicker-time-only .v-datefield-calendarpanel-header,
+	.datetimepicker-time-only .v-datefield-calendarpanel-body {
+	    display: none;
+	}
+}

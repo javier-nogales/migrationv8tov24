@@ -1,0 +1,68 @@
+@mixin r01fuilogin {
+/*
+	VIEW STYLE 
+	View: VaadinLoginViewBase
+*/
+	div[class*="r01uivaadinui"][class*="login"], .login-title {
+		background-color: rgb(29, 123, 173);
+		.v-panel {
+			left: 25%;
+			border: none;
+			background: rgb(29, 123, 173);
+		}
+	} 
+
+	.r01-login {
+		background-color: rgb(29, 123, 173);
+	}
+	
+	.r01-login-panel {
+		width: 40% !important;
+		background: white;
+		color: #474747;
+		border-radius: 4px;
+		border: 1px solid #d5d5d5;
+		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+		overflow: visible !important;
+	}
+	
+	.v-button-danger .google-button {
+		background: rgb(181, 52, 42) !important;
+		width: 93px;
+	}
+	
+	.v-button-primary .giltza-button {
+		background: rgb(191, 201, 202) !important;
+		width: 93px;
+	}
+	
+	
+	.v-button-primary .xlnets-button {
+		background: rgb(24, 80, 120) !important;
+		width: 93px;
+	}
+	
+	.v-button-primary .elkarlan-button {
+		background: rgb(24, 80, 120) !important;
+		width: 93px;
+	}
+	
+	.v-button-primary .justizia-button {
+		background: rgb(30, 34, 170) !important;
+		width: 93px; 
+	}
+	
+	.r01-login-lang-selector,  
+	.v-label-r01-login-title  {
+		color:white !important;
+	}
+	
+	div.r01-login-form-fields .v-caption-inline-icon span.v-icon {
+		left: auto;
+	}
+	
+	div.fields .v-caption-inline-icon span.v-icon {
+		left: auto;
+	}
+}

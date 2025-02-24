@@ -1,0 +1,9 @@
+@import "../valo/valo";
+@import "r01fuimain";
+@import "r01fuidatetimepicker";
+
+@mixin r01fuicommon {
+	@include valo;
+	@include r01fuimain; 
+	@include r01fuidatetimepicker;
+}

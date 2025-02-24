@@ -1,0 +1,173 @@
+@mixin r01fuitinyeditor {
+	.r01ui-html-box{
+		.v-label {
+			white-space:  normal;
+		}
+				
+		table.r01AlignRight {
+			float: right;
+		}
+		table.r01AlignCenter {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+		.r01Bold {
+			font-weight: bold;
+		}
+		.r01Italic {
+			font-style: italic;
+		}
+		.r01Underline {
+			text-decoration: underline;	
+		}
+		table.r01AlignLeft {
+			float: left;
+		}
+		td.r01VAlignTop {
+			vertical-align:top;
+		}
+		td.r01VAlignMiddle {
+			vertical-align:middle;
+		}
+		td.r01VAlignBottom {
+			vertical-align:bottom;
+		}
+		table.r01AlignJustify {
+			float: left;
+		}
+		.r01AlignRight {
+			text-align: right;
+		}
+		.r01AlignCenter {
+			text-align: center;
+		}
+		.r01AlignLeft {
+			text-align: left;
+		}
+		.r01AlignJustify {
+			text-align: justify;
+		}
+		
+		.r01AlignImgRight {
+			float: right;
+			margin:4px 0 4px 10px;
+		}
+		.r01AlignImgLeft {
+			float:left;
+			margin:4px 10px 4px 0;
+		}
+		
+		.r01AlignImgLeftList {
+			float:left;
+			margin:4px 40px 4px 0;
+		}
+		
+		.r01SquareList {
+			list-style-type: square;
+		}
+		.r01CircleList {
+			list-style-type: circle;
+		}
+		.r01DiscList{
+			list-style-type: disc;
+		}
+		
+		.r01Decimal {
+			list-style-type: decimal;
+		}
+		.r01MinLowerRoman {
+			list-style-type: lower-roman;
+		}
+		.r01UpperRoman {
+			list-style-type: upper-roman;
+		}
+		.r01LowerAlpha {
+			list-style-type: lower-alpha;
+		}
+		.r01UpperAlpha {
+			list-style-type: upper-alpha;
+		}
+		.incr_indent0 {
+			padding-left: 0px;
+		}
+		.incr_indent1 {
+			padding-left: 50px;
+		}
+		.incr_indent2 {
+			padding-left: 100px;
+		}
+		.incr_indent3 {
+			padding-left: 150px;
+		}
+		.incr_indent4 {
+			padding-left: 200px;
+		}
+		.incr_indent5 {
+			padding-left: 250px;
+		}
+		.incr_indent6 {
+			padding-left: 300px;
+		}
+		.incr_indent7 {
+			padding-left: 350px;
+		}
+		.incr_indent8 {
+			padding-left: 400px;
+		}
+		.incr_indent9 {
+			padding-left: 450px;
+		}
+		.incr_indent10 {
+			padding-left: 500px;
+		}
+		.incr_indent11 {
+			padding-left: 550px;
+		}
+		.incr_indent12 {
+			padding-left: 600px;
+		}
+		.incr_indent13 {
+			padding-left: 650px;
+		}
+		.incr_indent14 {
+			padding-left: 700px;
+		}
+		.incr_indent15 {
+			padding-left: 750px;
+		}
+		.incr_indent16 {
+			padding-left: 800px;
+		}
+		.incr_indent17 {
+			padding-left: 850px;
+		}
+		.incr_indent18 {
+			padding-left: 900px;
+		}
+		.incr_indent19 {
+			padding-left: 950px;
+		}
+		.incr_indent20 {
+			padding-left: 1000px;
+		}
+		.r01DivMedia {
+			background: 0% 50%;
+			overflow: hidden;
+			width: 100%;
+			height: 110px;
+		}		
+			
+		background: white;
+		border: 1px solid lightgrey;
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.tiny-editor:hover {
+		background-color: rgba(186, 186, 186, 0.1);
+		cursor: pointer;
+	}
+	.v-disabled .tiny-editor:hover {
+		background: #fff;
+	}
+}
